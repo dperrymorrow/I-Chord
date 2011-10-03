@@ -1,0 +1,69 @@
+html,body{
+	display:block;
+}
+
+*{
+	margin:0;
+	padding:0;
+	font-family:"Lucida Grande",Verdana,Arial;
+}
+
+#search{
+	display:block;
+	padding:15px;
+background-color:#efefef;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#fcfcfc), to(#bfbfbf), color-stop(3%, #f7f7f7), color-stop(12%, #f2f2f2), color-stop(90%, #d9d9d9));
+	border-bottom:1px solid #ccc;
+}
+
+#search input[type="text"]{
+	border:1px solid #ccc;
+	font-size:16px;
+	color:#666;
+
+	padding:1%;
+	width:98%;
+}
+
+#results{
+	display:block;
+	overflow:hidden;
+}
+
+
+
+#results .imgHolder{
+	display:inline-block;
+	float:left;
+	margin:5px;
+	position:relative;
+	width:49%;
+	max-width:150px;
+}
+
+#results .imgHolder img{
+	width:100%;
+	height:auto;
+}
+
+#results .imgHolder label{
+	display:block;
+	clear:both;
+	font-size:13px;
+background-color:#a6c1ef;
+-webkit-border-radius:6px;
+	border-radius: 6px;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#a6c1ef), to(#7496ce));
+
+	color:#fff;
+	width:100%;
+	padding:3px;
+	text-align:center;
+text-shadow: -1px -1px #3c4f6f;
+}
+
+
+.imgHolder.primary label{
+	background-color:#ffa842;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffa842), to(#c76c00)) !important;
+}
